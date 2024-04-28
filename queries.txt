@@ -1,0 +1,8 @@
+
+CREATE DATABASE recipe;
+
+CREATE TABLE recipes (
+s_no int PRIMARY KEY AUTO_INCREMENT,
+dish_name VARCHAR(250),
+ingredients TEXT,
+procedures LONGTEXT);
